@@ -46,7 +46,7 @@ public class Main implements Serializable {
     Main(){}
 
     public static void main(String[] args) {
-        Long N = 1000000L;
+        Long N = 100L;
         String url = "jdbc:postgresql://localhost:5432/magnit";
         String user = "postgres";
         String password = "postgres";
