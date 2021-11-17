@@ -1,4 +1,6 @@
-package ru.rbster;
+package ru.rbster.dbAccess;
+
+import ru.rbster.dbAccess.RelationalDataInterface;
 
 import java.sql.*;
 import java.util.LinkedList;
@@ -10,7 +12,7 @@ public class RelationalDataInterfaceImpl implements RelationalDataInterface {
     private String password = "postgres";
 
 
-    RelationalDataInterfaceImpl(String url, String user, String password) {
+    public RelationalDataInterfaceImpl(String url, String user, String password) {
         this.url = url;
         this.user = password;
         this.password = password;

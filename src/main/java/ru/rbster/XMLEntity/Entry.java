@@ -1,10 +1,9 @@
-package ru.rbster;
+package ru.rbster.XMLEntity;
 
 import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlElementWrapper;
 
 public class Entry {
     @XmlElement(name = "field")
     public Long field;
-    Entry(){};
+    public Entry(){}
 }

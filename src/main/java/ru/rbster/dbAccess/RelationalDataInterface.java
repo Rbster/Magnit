@@ -1,4 +1,4 @@
-package ru.rbster;
+package ru.rbster.dbAccess;
 
 import java.sql.SQLException;
 import java.util.List;
